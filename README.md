@@ -21,7 +21,5 @@ Front-end and backend to allow users to search, select, or unselect properties f
   - Column 2: Class Description
   - Column 3: Delete button
 - Delete button unselect property from DB.
-- One of the following:
-  - Option 1: [Google Maps](https://developers.google.com/maps/documentation/javascript/get-api-key) that display the selected properties
-  - Option 2: Add test to your implementation (Suggestion: Jest).
+- Add test to your implementation.
 - A Readme on how to run your solution.
