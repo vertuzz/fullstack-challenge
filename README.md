@@ -1,4 +1,4 @@
-**Enodo Lead Fullstack Engineering Challenge**
+**W&D Lead Fullstack Engineering Challenge**
 
 Welcome to our Lead Fullstack Engineering Challenge repository. This document will guide you through the challenge. Please fork this repo before you begin, as we will evaluate the code on your fork.
 
