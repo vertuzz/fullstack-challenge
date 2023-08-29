@@ -15,7 +15,7 @@ Design and implement a system that allows users to manage their personal propert
     - We recommend using SQLite for the sake of simplicity, but feel free to choose another database if you have a specific preference. Justify your choice.
     - Initiate the database using the data from the provided Excel file.
 
-3. **Backend Development (Python)**:
+3. **Backend Development**:
     - Develop a backend in Python to interact with the database.
     - Choose a suitable Python framework (e.g., Flask, Django, FastAPI, Falcon) and justify your choice.
 
