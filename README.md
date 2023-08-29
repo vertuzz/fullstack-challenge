@@ -34,3 +34,7 @@ Design and implement a system that allows users to manage their personal propert
 
 6. **Documentation**:
     - Provide a brief README detailing how to set up and run your application.
+  
+7. **Bonus**:
+    - **Optimization**: Propose and implement at least one optimization that can help the application perform better under increased data loads.
+    - **Additional Feature**: Propose and implement a feature you believe would enhance the user's experience while managing their property list.
