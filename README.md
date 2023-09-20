@@ -13,7 +13,7 @@ Design and implement a system that allows users to manage their personal propert
 
 2. **Database Design and Implementation**: 
     - We recommend using SQLite for the sake of simplicity, but feel free to choose another database if you have a specific preference. Justify your choice.
-    - Initiate the database using the data from the provided Excel file.
+    - Initiate the database using the data from the provided Excel file. Automation is not necessary. 
 
 3. **Backend Development**:
     - Develop a backend in Python to interact with the database.
@@ -27,7 +27,13 @@ Design and implement a system that allows users to manage their personal propert
         - Class Description
         - Estimated Market Value
     - Users should be able to search for properties from the database and add them to their property list.
-    - Properties on the list should have an option to be removed.
+        - Users should be able to search on the following values:
+            - Full Address
+            - Class
+            - Estimated_Market_Value
+            - BLDG_USE
+            - BUILDING_SQ_FT
+    - Properties on the users list should have an option to be removed.
 
 5. **Security**:
     - Implement basic security practices for the backend API and user authentication.
@@ -36,5 +42,5 @@ Design and implement a system that allows users to manage their personal propert
     - Provide a brief README detailing how to set up and run your application.
   
 7. **Bonus**:
-    - **Optimization**: Propose and implement at least one optimization that can help the application perform better under increased data loads.
-    - **Additional Feature**: Propose and implement a feature you believe would enhance the user's experience while managing their property list.
+    - **Optimization**: Propose at least one optimization that can help the application perform better under increased data loads.
+    - **Additional Feature**: Propose a feature you believe would enhance the user's experience while managing their property list.
