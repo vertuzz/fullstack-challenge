@@ -26,14 +26,16 @@ Design and implement a system that allows users to manage their personal propert
         - Full Address
         - Class Description
         - Estimated Market Value
-    - Users should be able to search for properties from the database and add them to their property list.
+    - Users should be able to search for properties from the database.
         - Users should be able to search on the following values:
             - Full Address
             - Class
             - Estimated_Market_Value
             - BLDG_USE
             - BUILDING_SQ_FT
+    - Properties should be able to be added to a personal property list of the user. 
     - Properties on the users list should have an option to be removed.
+    
 
 5. **Security**:
     - Implement basic security practices for the backend API and user authentication.
