@@ -26,6 +26,8 @@ Design and implement a system that allows users to manage their personal propert
         - Full Address
         - Class Description
         - Estimated Market Value
+        - Building Use
+        - Building Square Feet
     - Users should be able to search for properties from the database.
         - Users should be able to search on the following values:
             - Full Address
