@@ -4,12 +4,12 @@ Welcome to our Lead Fullstack Engineering Challenge repository. This document wi
 
 **Challenge Overview:**
 
-Design and implement a system that allows users to manage their personal property list. Users should be able to sign up, log in, and then add or remove properties to/from their property list.
+Design and implement a system that enables users to search for properties in the database using filters. Users should be able to log in, search for properties with filters, and view them on a map (Google Maps, Leaflet, or similar).
 
 **Requirements:**
 
 1. **User Authentication**:
-    - Implement a basic login and sign-up page.
+    - Use a hardcoded basic authentication with admin/admin user/password.
 
 2. **Database Design and Implementation**: 
     - We recommend using SQLite for the sake of simplicity, but feel free to choose another database if you have a specific preference. Justify your choice.
@@ -21,7 +21,7 @@ Design and implement a system that allows users to manage their personal propert
 
 4. **Frontend Development**:
     - Implement the frontend using Vue.js.
-    - Once logged in, users should see their property list.
+    - Once logged in, users should see the property list.
     - Each property in the list should display:
         - Full Address
         - Class Description
@@ -35,16 +35,15 @@ Design and implement a system that allows users to manage their personal propert
             - Estimated_Market_Value
             - BLDG_USE
             - BUILDING_SQ_FT
-    - Properties should be able to be added to a personal property list of the user. 
-    - Properties on the users list should have an option to be removed.
+    - User should be able to see the properties on a map.
+    - Each marker on the map should be clickable and show the property ID.
+    - The map should be centered on the properties.
     
 
-5. **Security**:
-    - Implement basic security practices for the backend API and user authentication.
-
-6. **Documentation**:
+5. **Documentation**:
     - Provide a brief README detailing how to set up and run your application.
   
-7. **Bonus**:
+6. **Bonus**:
     - **Optimization**: Propose at least one optimization that can help the application perform better under increased data loads.
-    - **Additional Feature**: Propose a feature you believe would enhance the user's experience while managing their property list.
+    - **Additional Feature**: Propose a feature you believe would enhance the user's experience while searching for properties.
+
